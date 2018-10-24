@@ -18,8 +18,8 @@ os.system("rm -Rf F_vs_V_*")
 
 n_volume = []
 path='./'
-#template = os.path.join(path, '*.out')  # now these out are the VOLUME.out
-template = os.path.join(path, 'xx01')
+template = os.path.join(path, '*_TD.out')  # now these out are the VOLUME_TD.out
+#template = os.path.join(path, 'xx01')
 
 # Setting the number of formula units as a raw_input:
 n_F_u = raw_input("""
