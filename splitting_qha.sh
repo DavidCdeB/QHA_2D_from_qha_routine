@@ -2,7 +2,7 @@
 
 # First run this command, which will generate xx* files:
 csplit -z  calcite_II_temperat.out  /"FINAL OPTIMIZED"/ {*}
-#exit
+exit
 
 # Edit the names for the FILES, as the ones that come as a result of:
 # grep "EL            :" xx*
