@@ -1,4 +1,6 @@
 #
+# Remove any file generated: 
+rm -Rf *_TD.out
 
 # First run this command, which will generate xx* files:
 csplit -z  calcite_II_temperat.out  /"FINAL OPTIMIZED"/ {*}
